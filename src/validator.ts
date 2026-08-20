@@ -1,6 +1,6 @@
 //Função responsável por responder ao chamado.
 function validarChamado(titulo: string): boolean {
-    if (!titulo) {
+    if (!titulo || titulo.trim() === "") {
         throw new Error("O título do chamado não pode ser vazio.");
         //Aqui basicamente responderá um erro sobre o espaço vazio!
 
