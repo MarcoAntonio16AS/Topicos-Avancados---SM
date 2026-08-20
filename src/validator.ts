@@ -15,6 +15,7 @@ function validarChamado(titulo: string): boolean {
         //Objetivo é aqui responder a um erro sobre tamanho do título
     }
 
+    //Manter tudo dentro da mesma função, modificando apenas o if para validar o tamanho máximo do título.
     return true;
 }
 
