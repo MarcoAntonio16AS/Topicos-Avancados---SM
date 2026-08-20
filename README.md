@@ -3,4 +3,4 @@
   # Topicos-Avancados---SM 
 </div>
 <br>
-Atividade de TASI (Tópicos Avançados de Sistema da Informação II). 
+Atividade de TASI (Tópicos Avançados de Sistema da Informação II)....
