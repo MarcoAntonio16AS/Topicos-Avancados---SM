@@ -10,7 +10,7 @@ function validarChamado(titulo: string): boolean {
     }
 
     //Função responsável por responder o novo chamado.
-    if (titulo.length < 5 || titulo.lenght > 100) {
+    if (titulo.length < 5) {
         throw new Error("O título do chamado não pode ter menos de 5 caracteres ou mais de 100");
         //Objetivo é aqui responder a um erro sobre tamanho do título
     }
